@@ -1,0 +1,53 @@
+/* Profile.css */
+.container-fluid {
+    padding: 20px;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+    /* Light gray background */
+}
+
+.bg-secondary {
+    background-color: #343a40;
+    /* Dark gray background */
+}
+
+.text-center {
+    text-align: center;
+    /* Center align text */
+}
+
+.profile-picture img {
+    width: 150px;
+    /* Adjust as needed */
+    height: 150px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    /* Rounded profile picture */
+}
+
+.btn-pastel-blue {
+    color: #fff;
+    /* White text color */
+    background-color: #bee3f8;
+    /* Pastel blue background */
+    border: none;
+    /* No border */
+    padding: 10px 20px;
+    /* Padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.btn-pastel-blue:hover {
+    background-color: #a7d7f2;
+    /* Lighter shade on hover */
+}
+
+.text-light {
+    color: #fff;
+    /* White text color */
+}

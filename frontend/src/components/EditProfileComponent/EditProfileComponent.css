@@ -1,0 +1,128 @@
+/* EditProfileComponent.css */
+
+.profile-container {
+    display: flex;
+    padding: 20px;
+    background-color: #f4f4f9;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.follower-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.follower-info div {
+    text-align: center;
+}
+
+.follow-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.follow-btn:hover {
+    background-color: #0056b3;
+}
+
+.profile-nav {
+    margin-top: 20px;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.edit-profile-content {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.social-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-profile {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.social-profile span {
+    margin-right: 10px;
+    min-width: 80px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

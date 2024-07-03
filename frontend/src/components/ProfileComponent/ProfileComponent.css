@@ -1,0 +1,74 @@
+/* ProfileComponent.css */
+
+.profile-container {
+    background-color: #333;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.follower-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.follower-info div {
+    text-align: center;
+}
+
+.follow-btn, .unfollow-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.follow-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.unfollow-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.profile-nav {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-link:hover {
+    background-color: #e2e6ea;
+}

@@ -1,0 +1,25 @@
+.gallery-container {
+    background-color: #f7f7f7; /* Light gray background color */
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Create a flexible grid with minimum item width of 200px */
+    gap: 10px; /* Add some spacing between grid items */
+  }
+  
+  .grid-item {
+    position: relative;
+  }
+  
+  .gallery-image {
+    width: 100%; /* Ensure images fill their grid item container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the entire container */
+  }
+  
+  .delete-button {
+    z-index: 1; /* Ensure the delete button stays above the images */
+  }
+  
